@@ -47,10 +47,16 @@ nav{
     color: #524F4F;
     border-radius: 3.125rem;
 }
-.btn-default-color:hover{
+.btn-second-color {
+    background-color: #202320;
+    color: #fff;
+    border-radius: 3.125rem; 
+}
+.btn-second-color:hover,.btn-default-color:hover{
     background-color: #FEC81A;
     color: #000;
     transform: scale(1.3);
+    transition: transform 1s;
 }
 #burgerIcon{
     position: absolute;
