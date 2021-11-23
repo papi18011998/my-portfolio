@@ -1,9 +1,9 @@
 /* Deafaut body colors */
+body{
+    overflow-x: hidden;
+}
 body, html {
     height: 100%;
-}
-html{
-    overflow-x: hidden;
 }
 html::-webkit-scrollbar{
     width: 1.4rem;
@@ -21,6 +21,9 @@ body{
 }
 *::selection{
     background-color: #FEC81A;
+}
+.reset-padding>*{
+    padding: 0;
 }
 ul{
     list-style: none;
@@ -71,7 +74,7 @@ nav{
 .globalContainer{
  position: absolute;
  top: 4rem;
- right: 0;
+ right: 1rem;
  z-index: 2;
 }
 .yellow-color{
@@ -88,8 +91,17 @@ nav{
 
 .rotate-hr{
     position: absolute;
-    top: 13.2rem;
-    left: -0.5rem;
+    top: 11.6rem;
+    right: 54%;
     transform: rotate(90deg);
-    width: 45%;
+    width: 60%;
+    opacity: 1;
+    border:1px white solid !important;
+}
+.underlied-text{
+    opacity: 1;
+    border:1px white solid !important;
+}
+.text-justify{
+    text-align: justify;
 }
