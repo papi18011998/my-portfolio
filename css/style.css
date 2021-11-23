@@ -105,3 +105,6 @@ nav{
 .text-justify{
     text-align: justify;
 }
+li{
+    list-style: none;
+}
