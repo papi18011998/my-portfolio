@@ -50,7 +50,8 @@ nav{
 .btn-second-color {
     background-color: #202320;
     color: #fff;
-    border-radius: 3.125rem; 
+    border-radius: 3.125rem;
+    height:  3.125rem;
 }
 .btn-second-color:hover,.btn-default-color:hover{
     background-color: #FEC81A;
@@ -75,4 +76,20 @@ nav{
 }
 .yellow-color{
     color: #FEC81A;
+}
+.icone-graduation{
+    width: 77px;
+    height: 77px;
+}
+.icone-graduation img{
+    width: 100%;
+    height: auto;
+}
+
+.rotate-hr{
+    position: absolute;
+    top: 13.2rem;
+    left: -0.5rem;
+    transform: rotate(90deg);
+    width: 45%;
 }
