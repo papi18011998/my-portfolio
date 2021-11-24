@@ -154,3 +154,20 @@ li {
     color: white;
     background-color: #fec81a;
   }
+
+/* ============================ Style Hobbies section====================== */
+.hobbies i {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #fec81a;
+  }
+  .hobby{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.8rem;
+  }
