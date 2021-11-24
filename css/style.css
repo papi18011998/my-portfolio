@@ -143,3 +143,14 @@ li {
         stroke-dashoffset: calc(500-(500*8)/100); 
     }
 }
+/* ============================ Style Quality section====================== */
+.qualite i {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #fec81a;
+  }
