@@ -16,6 +16,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"
+        integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Mon portfolio</title>
@@ -72,91 +75,86 @@
                 <h2 class="text-center mb-3">MON <span class="yellow-color">CURSUS</span></h2>
                 <hr class="col-4 text-center underlied-text">
             </div>
-            <div class="row  col-12 my-5 ps-5">
+            <div class="row  col-12 my-4 ps-5">
                 <!-- ========================================== Cursus 1 ========================================== -->
-                <div class="col-sm-12 col-md-4 col-lg-4 row  position-relative  py-5">
-                    <figure class="col-3" >
-                        <img src="assets/graduation.svg" alt="Icone de graduation" class="position-relative">
-                    </figure>
-                    <div class="col-9">
-                        <button class="btn btn-second-color col-10">2021-2022</button>
-                        <div class="py-3 ">Apprenant à Simplon Sénégal</div>
-                        <div class="text-justify">Simplon est une école de codage dont l’apprentissage est basée sur un e pédeagogie</div>
-                    </div>
-                    <hr class="rotate-hr">
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3 mb-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4">2021-2022</span>
+                    <h3 class="pt-3 ps-4">Apprenant à Simplon Sénégal</h3>
+                    <p class="ps-4 text-justify">
+                        Simplon est une école de codage dont l’apprentissage est basée sur une pédeagogie active.
+                    </p>
                 </div>
                 <!-- ========================================== Cursus 2 ========================================== -->
-                <div class="col-sm-12 col-md-4 col-lg-4 row  position-relative  py-5">
-                    <figure class="col-3">
-                        <img src="assets/graduation.svg" alt="Icone de graduation">
-                    </figure>
-                    <div class="col-9">
-                        <button class="btn btn-second-color col-10">2020</button>
-                        <div class="py-3 "> Certification Git et GutHub</div>
-                        <div class="text-justify">Cette formation de Openclassroom m'a permis de comprendre comment versionner son code avec git mais aussi de l'héberger sur GitHub</div>
-                    </div>
-                    <hr class="rotate-hr">
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3 mb-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4">2020</span>
+                    <h3 class="pt-3 ps-4">Certification Git et GutHub</h3>
+                    <p class="ps-4 text-justify">
+                        ette formation de Openclassroom m'a permis de comprendre comment
+                            versionner son code avec git mais aussi de l'héberger sur GitHub.
+                    </p>
                 </div>
                 <!-- ========================================== Cursus 3 ========================================== -->
-                <div class="col-sm-12 col-md-4 col-lg-4 row  position-relative py-5">
-                    <figure class="col-3">
-                        <img src="assets/graduation.svg" alt="Icone de graduation">
-                    </figure>
-                    <div class="col-9">
-                        <button class="btn btn-second-color col-10">2018-2019</button>
-                        <div class="py-3 ">Licence en génie informatique <br> <span class="px-2">Génie Logiciel</span></div>
-                        <div class="text-justify">Mon projet de licence portait sur la mise en place d’un site de petite annonces permettant de
-                            mettre en relation l’annonceur et le visiteur.</div>
-                    </div>
-                    <hr class="rotate-hr">
-                </div>                
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3 mb-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4">2018-2019</span>
+                    <h3 class="pt-3 ps-4">Licence en génie informatique <br> <span class="px-2 h6">Génie Logiciel</span></h3>
+                    <p class="ps-4 text-justify">
+                        Mon projet de licence portait sur la mise en place d’un site de petite
+                        annonces permettant de
+                        mettre en relation l’annonceur et le visiteur.
+                    </p>
+                </div>
             </div>
         </section>
         <!-- ========================================== Mon experience ========================================== -->
-        <section id="experience" class="my-5">
+        <section id="experience">
             <div class="row  align-items-center justify-content-center">
                 <h2 class="text-center mb-3">MON <span class="yellow-color">EXPÉRIENCE</span></h2>
                 <hr class="col-4 text-center underlied-text">
             </div>
-            <div class="row  col-12 my-5 ps-5">
+            <div class="row carte-container col-12 my-4 ps-5">
                 <!-- ========================================== Experience 1 ========================================== -->
-                <div class="col-sm-12 col-md-4 col-lg-4 row  position-relative py-5">
-                    <figure class="col-3">
-                        <img src="assets/graduation.svg" alt="Icone de graduation">
-                    </figure>
-                    <div class="col-9">
-                        <button class="btn btn-second-color col-10">Sept 2020-Janv 2021 </button>
-                        <div class="py-3 ">Stagiaire en informatique  <br> <span class="px-2">LYSA & CO</span></div>
-                        <div>
-                            
-                                <li>Adminstrastion site Wordpress</li>
-                                <li>Administration  ODOO</li>
-                                <li>Formation utilisateurs internes</li>
-                                <li>Maintenance informatique</li>
-                            
-                        </div>
-                    </div>
-                    <hr class="rotate-hr">
-                </div> 
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3 mb-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4">Sep 2020-Jan 2021</span>
+                    <h3 class="pt-3 ps-4">Stagiaire informatique</h3>
+                    <p>
+                        <li class="ps-4">Adminstrastion site Wordpress</li>
+                        <li class="ps-4">Administration ODOO</li>
+                        <li class="ps-4">Formation utilisateurs internes</li>
+                        <li class="ps-4">Maintenance informatique</li>
+                    </p>
+                </div>
                 <!-- ========================================== Experience 2 ========================================== -->
-                <div class="col-sm-12 col-md-4 col-lg-4 row  position-relative py-5">
-                    <figure class="col-3">
-                        <img src="assets/graduation.svg" alt="Icone de graduation">
-                    </figure>
-                    <div class="col-9">
-                        <button class="btn btn-second-color col-10">Fev 2021-Sept 2021 </button>
-                        <div class="py-3 ">Informaticien <br> <span class="px-2">LYSA & CO</span></div>
-                        <div>
-                                <li>Adminstrastion site Wordpress</li>
-                                <li>Administration  ODOO</li>
-                                <li>Formation utilisateurs internes</li>
-                                <li>Maintenance informatique</li>
-                        </div>
-                    </div>
-                    <hr class="rotate-hr">
-                </div>              
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4 col-md-6 col-lg-4 col-sm-8">Fev 2021-Sep 2021</span>
+                    <h3 class="pt-3 ps-4">Informaticien</h3>
+                    <p>
+                        <li class="ps-4">Adminstrastion site Wordpress</li>
+                        <li class="ps-4">Administration ODOO</li>
+                        <li class="ps-4">Formation utilisateurs internes</li>
+                        <li class="ps-4">Maintenance informatique</li>
+                    </p>
+                </div>
             </div>
         </section>
+        <!-- ========================================== Mes competences ========================================== -->
+        <section id="skills">
+            <div class="row  align-items-center justify-content-center">
+                <h2 class="text-center mb-3">MES <span class="yellow-color">COMPÉTENCES</span></h2>
+                <hr class="col-4 text-center underlied-text">
+            </div>
+            <!-- ========================================== skill 1 ========================================== -->
+            <div class="skill col-sm-12 col-lg-4 col-md-4 position-relative">
+                <div class="bar d-flex align-items-center justify-content-center"><span class="value-advancement"></span></div>
+                <div class="text-center">HTML/CSS</div>
+            </div>
+            
+        </section>
+
     </main>
 </body>
 

@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('#burgerIcon').click(function(){
-        $('#header').toggle()
+        $(this).toggleClass('fa-times')
+        $('header').toggleClass('toggle')
     })
 })

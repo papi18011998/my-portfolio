@@ -17,19 +17,26 @@ body{
 *::selection{
     background-color: #FEC81A;
 }
-.reset-padding>*{
-    padding: 0;
-}
 ul{
     list-style: none;
 }
 a{
     list-style: none;
 }
+/* ============================ header ====================== */
 header{
+    position: fixed;
+    top: 0;
+    left: -120%;
+    z-index: 4;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
+}
+.toggle{
+    left: 0%;
+    transition: left .9s;
 }
 nav{
     height: auto;
@@ -42,9 +49,10 @@ nav{
     border-radius: 50%;
     object-fit: cover;
 }
+/* ============================ Custom Btn ====================== */
 .btn-default-color{
     background-color: #202320;
-    color: #524F4F;
+    color: white;
     border-radius: 3.125rem;
 }
 .btn-second-color {
@@ -68,6 +76,7 @@ nav{
     z-index: 10;
     font-size: 2.5rem;
 }
+/* ============================ Goblal contain of page====================== */
 .globalContainer{
  position: absolute;
  top: 4rem;
@@ -85,16 +94,25 @@ nav{
     width: 100%;
     height: auto;
 }
-
-.rotate-hr{
-    position: absolute;
-    top: 11.6rem;
-    right: 54%;
-    transform: rotate(90deg);
-    width: 60%;
-    opacity: 1;
-    border:1px white solid !important;
+/* ============================ Style of cursus an experience====================== */
+.carte{
+    border-left: 2px white solid;
+    position: relative;
 }
+.carte i{
+ position: absolute;
+ top: 0rem;
+ left: -1.6rem;
+ height: 3rem;
+ width: 3rem;
+ border-radius: 50%;
+ line-height: 3rem;
+ text-align: center;
+ font-size: 1.8rem;
+ color: white;
+ background-color: #FEC81A;
+}
+
 .underlied-text{
     opacity: 1;
     border:1px white solid !important;
@@ -104,4 +122,10 @@ nav{
 }
 li{
     list-style: none;
-}
+/* }
+.bar .value-advancement{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
