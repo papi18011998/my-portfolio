@@ -60,6 +60,11 @@ nav {
   border-radius: 3.125rem;
   height: 3.125rem;
 }
+.btn-submit{
+    background-color:#fec81a;
+    color:black;
+    border-radius: 3.125rem; 
+}
 .btn-second-color:hover,
 .btn-default-color:hover {
   background-color: #fec81a;
@@ -170,4 +175,18 @@ li {
     height: 3rem;
     width: 3rem;
     font-size: 1.8rem;
+  }
+  /* ============================ Style Contact section====================== */
+  .contact-form input{
+      background-color: #202320;
+      color: #524F4F;
+      height:3rem;
+      border-radius: 3.125rem;
+      border: none;
+  }
+  .contact-form textarea{
+      background-color: #202320;
+      color: #524F4F;
+      border-radius: 1.4375rem;
+      border: none;
   }
