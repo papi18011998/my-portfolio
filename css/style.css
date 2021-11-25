@@ -129,23 +129,69 @@ li {
   list-style: none;
 }
 /* ============================ Style svg elements====================== */
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+svg{
+    width: 160px;
+    height: 160px;
 }
-.box svg circle {
-  fill: transparent;
-  stroke: #fec81a;
-  stroke-width: 10;
-  stroke-dasharray: 500;
-  stroke-dashoffset: 200;
-  stroke-linecap: round;
-  animation: stroke 13.5s steps(500) forwards;
+svg circle{
+    fill: none;
+    stroke: rgba(254, 200, 26, 0.2);
+    stroke-width: 10;
+    transform: translate(10px,5px);
 }
-@keyframes stroke{
-    10%{
-        stroke-dashoffset: calc(500-(500*8)/100); 
+.skill-80 svg circle:nth-child(even){
+    fill: none;
+    stroke: #fec81a;
+    stroke-width: 10;
+    transform: translate(10px,5px);
+    stroke-dasharray: 440px;
+    stroke-dashoffset: 440px;
+    stroke-linecap: round;
+    animation: skill-80 5s forwards;
+    position: relative;
+}
+.skill-60 svg circle:nth-child(even){
+    fill: none;
+    stroke: #fec81a;
+    stroke-width: 10;
+    transform: translate(10px,5px);
+    stroke-dasharray: 440px;
+    stroke-dashoffset: 440px;
+    stroke-linecap: round;
+    animation: skill-60 5s forwards;
+    position: relative;
+}
+.skill-50 svg circle:nth-child(even){
+    fill: none;
+    stroke: #fec81a;
+    stroke-width: 10;
+    transform: translate(10px,5px);
+    stroke-dasharray: 440px;
+    stroke-dashoffset: 440px;
+    stroke-linecap: round;
+    animation: skill-50 5s forwards;
+    position: relative;
+}
+text{
+    font-size: 2em;
+    font-weight: 400;
+    fill: white;
+}
+/* * ============================ SVG Animation====================== */
+@keyframes skill-80 {
+    to{
+        stroke-dashoffset:calc(440px - (440px * 80) / 100);
+    }
+}
+@keyframes skill-60 {
+    to{
+        stroke-dashoffset:calc(440px - (440px * 60) / 100);
+    }
+}
+@keyframes skill-50 {
+    to{
+        stroke-dashoffset:calc(440px - (440px * 50) / 100);
     }
 }
 /* ============================ Style Quality section====================== */
@@ -195,5 +241,9 @@ li {
       height: 5rem;
       position: absolute;
       top: 20rem;
+      z-index: 10;
+      display: none;
       right: 1.25rem;
   }
+  .to-top :hover{
+    
