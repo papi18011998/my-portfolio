@@ -190,3 +190,10 @@ li {
       border-radius: 1.4375rem;
       border: none;
   }
+  .to-top{
+      width: 5rem;
+      height: 5rem;
+      position: absolute;
+      top: 20rem;
+      right: 1.25rem;
+  }
