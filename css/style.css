@@ -58,7 +58,7 @@ nav {
   background-color: #202320;
   color: #fff;
   border-radius: 3.125rem;
-  height: 3.125rem;
+  width: auto;
 }
 .btn-submit{
     background-color:#fec81a;
@@ -245,5 +245,19 @@ text{
       display: none;
       right: 1.25rem;
   }
-  .to-top :hover{
+ /* ============================ Media Queries====================== */
+ @media screen and (min-width:1200px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        height: 100%;
+        width: 100%;
+        overflow-y: hidden;
+      }
+      #burgerIcon {
+        display: none;
+      }
+ }
     
