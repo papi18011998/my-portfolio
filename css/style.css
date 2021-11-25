@@ -239,8 +239,8 @@ text{
   .to-top{
       width: 5rem;
       height: 5rem;
-      position: absolute;
-      top: 20rem;
+      position: fixed;
+      top: 50%;
       z-index: 10;
       display: none;
       right: 1.25rem;
