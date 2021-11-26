@@ -1,8 +1,11 @@
 $(document).ready(function(){
-    $('#burgerIcon').click(function(){
-        $(this).toggleClass('fa-times')
-        $('header').toggleClass('toggle')
-    })
+    function toggleMenu(params) {
+        $('#burgerIcon').click(function(){
+            $(this).toggleClass('fa-times')
+            $('header').toggleClass('toggle')
+        })
+    }
+    toggleMenu()
     $(document).scroll(function(){
         if (document.body.scrollTop > 50  || document.documentElement.scrollTop > 50) {
             $('.to-top').css("display","block")
@@ -14,4 +17,13 @@ $(document).ready(function(){
             document.documentElement.scrollTop = 50
         })
     })
+    if (document.body.offsetWidth<=500) {
+        $('.menu-item').click(function () {
+            // alert($('menu-item').text())
+            $(header).css("left","-120%") 
+            $("#burgerIcon").removeClass('fa-times') 
+            toggleMenu()
+        })
+        
+    }
 })

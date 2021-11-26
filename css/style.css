@@ -240,10 +240,10 @@ text{
       width: 5rem;
       height: 5rem;
       position: fixed;
-      top: 50%;
+      bottom: 0;
       z-index: 10;
       display: none;
-      right: 1.25rem;
+      right: 0.5rem;
   }
  /* ============================ Media Queries====================== */
  @media screen and (min-width:1200px) {
