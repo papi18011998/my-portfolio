@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,318 @@
     <meta name="desrciption" content="Cette page est le portfolio de Papa Ibrahima NDIAYE">
     <meta name="copyright" content=" Made by Papa Ibrahima NDIAYE">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/bootstrap-5.1.3-dist/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Mon portfolio</title>
-<!-- ========================================== Menu de Navigation ========================================== -->
+    <!-- ========================================== Menu de Navigation ========================================== -->
 </head>
+
 <body>
-    <header class="row col-sm-12 col-md-4 col-lg-4" id="header">
-       <nav class="col-12 side-bar-menu">
-           <div class="row user justify-content-center align-items-center ">
-                <img src="assets/me.jpg" alt="Ma photo" class="my-5">
+    <header class="row  col-sm-12 col-md-6 col-lg-3" id="header">
+        <nav class="col-12 side-bar-menu">
+            <div class="row   user justify-content-center align-items-center ">
+                <img src="assets/me.png" alt="Ma photo" class="my-5">
                 <h3 class="name text-center">Papa Ibrahima NDIAYE</h3>
                 <p class="post text-center">Apprenant à Simplon Sénégal</p>
-           </div>
-           <ul class="text-center row">
-               <li><a href="#about" class="btn btn-default-color my-1 col-8">À PROPOS DE MOI</a></li>
-               <li><a href="#cursus" class="btn btn-default-color my-1 col-8">MON CURSUS</a></li>
-               <li><a href="#experience" class="btn btn-default-color my-1 col-8">MON EXPÉRIENCE</a></li>
-               <li><a href="#skills" class="btn btn-default-color my-1 col-8">MES COMPÉTENCES</a></li>
-               <li><a href="#qualities" class="btn btn-default-color my-1 col-8">MES QUALITÉS</a></li>
-               <li><a href="#hobbies" class="btn btn-default-color my-1 col-8">MES LOISIRS</a></li>
-               <li><a href="#contact" class="btn btn-default-color my-1 col-8">ME CONTACTER</a></li>
-           </ul>
-       </nav> 
+            </div>
+            <ul class="text-center row  ">
+                <li><a href="#about" class="btn btn-default-color my-1 col-8 my-3 menu-item">À PROPOS DE MOI</a></li>
+                <li><a href="#cursus" class="btn btn-default-color my-1 col-8 my-3 menu-item">MON CURSUS</a></li>
+                <li><a href="#experience" class="btn btn-default-color my-1 col-8 my-3 menu-item">MON EXPÉRIENCE</a></li>
+                <li><a href="#skills" class="btn btn-default-color my-1 col-8 my-3 menu-item">MES COMPÉTENCES</a></li>
+                <li><a href="#qualities" class="btn btn-default-color my-1 col-8 my-3 menu-item">MES QUALITÉS</a></li>
+                <li><a href="#hobbies" class="btn btn-default-color my-1 col-8 my-3 menu-item">MES LOISIRS</a></li>
+                <li><a href="#contact" class="btn btn-default-color my-1 col-8 my-3 menu-item">ME CONTACTER</a></li>
+            </ul>
+        </nav>
     </header>
     <div id="burgerIcon" class="fas fa-bars"></div>
+    <main class="row  col-sm-12 col-md-12 col-lg-9  globalContainer">
+        <!-- ========================================== Home page ========================================== -->
+        <section class="my-5 px-5 col-12" id="home">
+            <h1>Hello!</h1>
+            <p>Je suis <span class="yellow-color">Papa Ibrahima NDIAYE</span></p>
+            <p> Dévelopeur web</p>
+        </section>
+        <!-- ========================================== About me ========================================== -->
+        <section id="about" class="my-5 px-5">
+            <div class="row  align-items-center justify-content-center">
+                <h2 class="text-center mb-3"><span class="yellow-color">À PROPOS</span> DE MOI</h2>
+                <hr class="col-4 text-center underlied-text">
+            </div>
+            <p>Nom: <span class="yellow-color">Papa Ibrahima NDIAYE</span></p>
+            <p>Age: <span class="yellow-color">24</span></p>
+            <p>Langue: <span class="yellow-color">Français, Anglais, Wolof</span></p>
+            <p>Après mon baccaularéat, je suis allé l’université pour faires des études dans le milieu du développement
+                web pour pouvoir proposer des solutions informatiques à differentes personnes qui le souhaitent car
+                aider une personne a toujours été quelques chose que j’aime. </p>
+            <div class="row  align-items-center justify-content-center">
+                <a class="btn btn-second-color my-1 col-sm-8 col-lg-3" href="assets/Papa_Ibrahima_NDIAYE.pdf" download="Papa Ibrhima NDIAYE">Download my CV <i
+                        class="fas fa-download"></i></a>
+            </div>
+        </section>
+        <!-- ========================================== Cursus ========================================== -->
+        <section id="cursus">
+            <div class="row  align-items-center justify-content-center">
+                <h2 class="text-center mb-3">MON <span class="yellow-color">CURSUS</span></h2>
+                <hr class="col-4 text-center underlied-text">
+            </div>
+            <div class="row  col-12 my-4 ps-5">
+                <!-- ========================================== Cursus 1 ========================================== -->
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3 mb-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4">Sept 2021- Sept 2022</span>
+                    <h3 class="pt-3 ps-4">Apprenant à Simplon Sénégal</h3>
+                    <p class="ps-4 text-justify">
+                        Simplon est une école de codage dont l’apprentissage est basée sur une pédeagogie active.
+                    </p>
+                </div>
+                <!-- ========================================== Cursus 2 ========================================== -->
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3 mb-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4">2020</span>
+                    <h3 class="pt-3 ps-4">Certification Opquast</h3>
+                    <p class="ps-4 text-justify">
+                        Afin de mieux maitriser ce que veut un client, j'ai passé une certification sur la qualitée du web
+                    </p>
+                </div>
+                <!-- ========================================== Cursus 3 ========================================== -->
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3 mb-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4">2018-2019</span>
+                    <h3 class="pt-3 ps-4">Licence en génie informatique <br> <span class="px-2 h6">Génie Logiciel</span></h3>
+                    <p class="ps-4 text-justify">
+                        Mon projet de licence portait sur la mise en place d’un site de petite
+                        annonces permettant de
+                        mettre en relation l’annonceur et le visiteur.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ========================================== Mon experience ========================================== -->
+        <section id="experience">
+            <div class="row  align-items-center justify-content-center">
+                <h2 class="text-center mb-3">MON <span class="yellow-color">EXPÉRIENCE</span></h2>
+                <hr class="col-4 text-center underlied-text">
+            </div>
+            <div class="row carte-container col-12 my-4 ps-5">
+                <!-- ========================================== Experience 1 ========================================== -->
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3 mb-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4 col-8">Aout 2022-Nov 2022</span>
+                    <h3 class="pt-3 ps-4">Stagiaire Developpeur Frontend à Sun-Telecoms</h3>
+                    <ul>
+                        <li class="ps-1">Participation au projet ccak (Complexe Cheikh Ahmadoul Khadim)</li>
+                    </ul>
+                </div>
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4 col-8">Fev 2021-Sep 2021</span>
+                    <h3 class="pt-3 ps-4">Informaticien</h3>
+                    <ul>
+                        <li class="ps-1">Adminstrastion site Wordpress</li>
+                        <li class="ps-1">Administration ODOO</li>
+                        <li class="ps-1">Formation utilisateurs internes</li>
+                        <li class="ps-1">Maintenance informatique</li>
+                    </ul>
+                </div>
+                <!-- ========================================== Experience 2 ========================================== -->
+                <div class="carte col-sm-12 col-lg-4 col-md-6 ps-3 mb-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="btn btn-second-color ms-4 col-8">Sep 2020-Jan 2021</span>
+                    <h3 class="pt-3 ps-4">Stagiaire informatique</h3>
+                    <ul>
+                        <li class="ps-1">Adminstrastion site Wordpress</li>
+                        <li class="ps-1">Administration ODOO</li>
+                        <li class="ps-1">Formation utilisateurs internes</li>
+                        <li class="ps-1">Maintenance informatique</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <!-- ========================================== Mes competences ========================================== -->
+        <section id="skills">
+            <div class="row  align-items-center justify-content-center">
+                <h2 class="text-center mb-3">MES <span class="yellow-color">COMPÉTENCES</span></h2>
+                <hr class="col-4 text-center underlied-text">
+            </div>
+            <div class="row py-4">
+         <!-- ========================================== skill 1 ========================================== -->
+                <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-80 pb-5">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <text x="35%" y="55%">80%</text>
+                    </svg>
+                    <h3>HTML/CSS</h3>
+                </div>
+        <!-- ========================================== skill 2 ========================================== -->
+                <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-60 pb-5">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <text x="35%" y="55%">60%</text>
+                    </svg>
+                    <h3>PHP</h3>
+                </div>
+        <!-- ========================================== skill 3 ========================================== -->        
+                <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-50 pb-5">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <text x="35%" y="55%">50%</text>
+                    </svg>
+                    <h3>JAVASCRIPT</h3>
+                </div>
+        <!-- ========================================== skill 4 ========================================== -->
+                <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-50 pb-5">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <text x="35%" y="55%">50%</text>
+                    </svg>
+                    <h3>WINDEV</h3>
+                </div>
+        <!-- ========================================== skill 5 ========================================== -->
+                <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-60 pb-5">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <text x="35%" y="55%">60%</text>
+                    </svg>
+                    <h3>ODOO</h3>
+                </div>
+        <!-- ========================================== skill 6 ========================================== -->
+                <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-60 pb-5">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <text x="35%" y="55%">60%</text>
+                    </svg>
+                    <h3>FIGMA</h3>
+                </div>
+        <!-- ========================================== skill 7 ========================================== -->
+                <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-60 pb-5">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <text x="35%" y="55%">60%</text>
+                    </svg>
+                    <h3>GIT/GITHUB</h3>
+                </div>
+        <!-- ========================================== skill 8 ========================================== -->
+        <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-60 pb-5">
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+                <text x="35%" y="55%">60%</text>
+            </svg>
+            <h3>Spring</h3>
+        </div>   
+        <!-- ========================================== skill 9 ========================================== -->
+        <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-60 pb-5">
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+                <text x="35%" y="55%">60%</text>
+            </svg>
+            <h3>Angular</h3>
+        </div>    
+        <!-- ========================================== skill 10 ========================================== -->
+        <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-60 pb-5">
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+                <text x="35%" y="55%">60%</text>
+            </svg>
+            <h3>React</h3>
+        </div> 
+        <!-- ========================================== skill 11 ========================================== -->
+        <div class="box text-center col-sm-12 col-md-4 col-lg-4 skill-60 pb-5">
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+                <text x="35%" y="55%">60%</text>
+            </svg>
+            <h3>Laravel</h3>
+        </div>                                
+    </div>
+        </section>
+        <!-- ========================================== Mes qualités ========================================== -->
+        <section id="qualities">
+            <div class="row  align-items-center justify-content-center">
+                <h2 class="text-center mb-3">MES <span class="yellow-color">QUALITÉS</span></h2>
+                <hr class="col-4 text-center underlied-text">
+            </div>
+            <div class="col-12 px-3 qualite py-3"><i class="far fa-diploma"></i><span class="p-3">Assiduité</span></div>
+            <div class="col-12 px-3 qualite py-3"><i class="far fa-diploma"></i><span class="p-3">Leadership</span></div>
+            <div class="col-12 px-3 qualite py-3"><i class="far fa-diploma"></i><span class="p-3">Responsabilité</span></div>
+            <div class="col-12 px-3 qualite py-3"><i class="far fa-diploma"></i><span class="p-3">Respect des deadlines</span></div>
+        </section>
+        <!-- ========================================== Mes loisirs ========================================== -->
+        <section id="hobbies">
+            <div class="row  align-items-center justify-content-center">
+                <h2 class="text-center mb-3">MES <span class="yellow-color">LOISIRS</span></h2>
+                <hr class="col-4 text-center underlied-text">
+            </div>
+            <div class="row hobbies ps-4">
+        <!-- ========================================== loisir 1 ========================================== -->
+                <div class="col-3 px-3 py-3">
+                    <div class="hobby fas fa-gamepad w-100 text-center yellow-color"></div>
+                    <div class="text-center">Jeux</div>
+                </div>
+        <!-- ========================================== loisir 2 ========================================== -->
+                <div class="col-3 px-3 py-3">
+                    <div class="hobby far fa-futbol w-100 text-center yellow-color"></div>
+                    <div class="text-center ">Football</div>
+                </div>
+        <!-- ========================================== loisir 3 ========================================== -->
+                <div class="col-3 px-3 py-3">
+                    <div class="hobby fas fa-bicycle w-100 text-center yellow-color"></div>
+                    <div class="text-center ">Vélo</div>
+                </div>
+        <!-- ========================================== loisir 4 ========================================== -->
+                <div class="col-3 px-3 py-3">
+                    <div class="hobby fas fa-film  w-100 text-center yellow-color"></div>
+                    <div class="text-center ">Film</div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================================== Me contacter ========================================== -->
+        <section id="contact">
+            <div class="row  align-items-center justify-content-center">
+                <h2 class="text-center mb-3">ME <span class="yellow-color">CONTACTER</span></h2>
+                <hr class="col-4 text-center underlied-text">
+            </div>
+            <div class="row contact ps-4 pt-3">
+                <div class="row col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-12 mt-3">
+                        <i class="far fa-envelope yellow-color"></i>  <span>papaibrahima98@gmail.com </span><br><br>
+                        <i class="fas fa-map-marker-alt yellow-color"></i> <span>Rufisque, Diorga Cherif </span><br><br>
+                        <i class="fab fa-linkedin-in yellow-color"></i> <span>papa-ibrahima-ndiaye-35361b193</span><br><br>
+                        <i class="fas fa-map-marker-alt yellow-color"></i> <span>papi18011998</span> 
+                    </div>
+                </div>
+                <form action="#" method="post" class="contact-form row col-sm-12 col-md-6 col-lg-6 mt-3">
+                    <input class="mb-3" type="text" name="nom" placeholder="Nom">
+                    <input class="mb-3" type="email" name="email" placeholder="Email">
+                    <input class="mb-3" type="text" name="object" placeholder="Objet de la demande">
+                    <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <div class="row col-12 justify-content-center align-items-center py-2"><button type="submit" class="btn btn-submit col-lg-3 col-md-4 col-sm-12">Envoyer</button></div>
+                </form>
+            </div>
+        </section>
+        <figure><img src="assets/lancement-de-fusee.png" alt="boutton back to top" title="Revenir en haut" class="to-top"></figure>
+    </main>
 </body>
+
 </html>
